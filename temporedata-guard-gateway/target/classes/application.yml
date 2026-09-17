@@ -1,0 +1,82 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: zy-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVERS:localhost:8848}
+        fail-fast: false
+    gateway:
+      routes:
+        # 数据研发服务: 数据源/工作流/采集/同步/质量/血缘/元数据/引擎
+        - id: zy-service-dev
+          uri: lb://zy-service-dev
+          predicates:
+            - Path=/api/workflow/**,/api/datasource/**,/api/meta/**,/api/catalog/**,/api/quality/**,/api/sync/**,/api/ingestion/**,/api/lineage/**,/api/query/**,/api/engine/**,/api/indicator/**,/api/tag/**,/api/datacenter/**,/api/dashboard/**,/api/changeaudit/**,/api/dependency/**,/api/func/**,/api/globalvar/**
+        # Agent 服务: 助手对话/工具编排/AI 任务
+        - id: zy-service-agent
+          uri: lb://zy-service-agent
+          predicates:
+            - Path=/api/agent/**,/api/ai/**
+        # 警务数据服务: 情报/实体/图谱/轨迹/资金/通联/以图找人/布控
+        - id: zy-service-police
+          uri: lb://zy-service-police
+          predicates:
+            - Path=/api/intelligence/**,/api/entitymaster/**,/api/entitygraph/**,/api/track/**,/api/network/**,/api/photo/**,/api/watch/**
+        # 数据服务: 警务数据接口/研判报表/采集表单/数据源
+        - id: zy-service-data
+          uri: lb://zy-service-data
+          predicates:
+            - Path=/api/services/**,/api/report/**,/api/form/**,/api/datasource/**
+        # 平台服务: 认证/单位/组织/角色/用户/授权/通知/免密
+        - id: zy-service-platform
+          uri: lb://zy-service-platform
+          predicates:
+            - Path=/api/auth/**,/api/user/**,/api/tenant/**,/api/org/**,/api/role/**,/api/license/**,/api/notify/**,/api/passwordless/**,/api/preference/**,/api/settings/**,/api/secret/**
+        # 安全合规服务(服务拆分试点): 安全域前缀路由到独立服务
+        - id: zy-service-security
+          uri: lb://zy-service-security
+          predicates:
+            - Path=/api/security/**,/api/permapproval/**,/api/message/**,/api/mydata/**,/api/sensitive/**,/api/apilog/**,/api/blacklist/**,/api/alarm/**,/api/changeaudit/**,/api/behaviorlog/**,/api/loginlog/**
+        # 统一入口 -> 后端集群(经 Nacos 服务发现 lb://qingzhouyun, 双实例轮询)
+        - id: qingzhouyun-backend
+          uri: lb://qingzhouyun
+          predicates:
+            - Path=/api/**,/druid/**
+        # 前端静态资源(单体阶段由后端托管, 网关透传)
+        - id: qingzhouyun-static
+          uri: lb://qingzhouyun
+          predicates:
+            - Path=/assets/**,/index.html,/,/favicon.ico
+      # 服务化阶段启用: 按服务前缀路由 (nginx/网关)
+      # - id: service-platform
+      #   uri: lb://zy-service-platform
+      #   predicates:
+      #     - Path=/api/auth/**,/api/org/**,/api/role/**,/api/tenant/**
+      # - id: service-police
+      #   uri: lb://zy-service-police
+      #   predicates:
+      #     - Path=/api/intelligence/**,/api/graph/**,/api/track/**
+      # - id: service-agent
+      #   uri: lb://zy-service-agent
+      #   predicates:
+      #     - Path=/api/agent/**,/api/ai/**
+      # - id: service-data
+      #   uri: lb://zy-service-data
+      #   predicates:
+      #     - Path=/api/services/**,/api/report/**,/api/form/**,/api/blacklist/**,/api/apilog/**
+      # - id: service-security
+      #   uri: lb://zy-service-security
+      #   predicates:
+      #     - Path=/api/security/**,/api/audit/**,/api/permapproval/**,/api/mydata/**,/api/sensitive/**,/api/datalevel/**
+  main:
+    web-application-type: reactive
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

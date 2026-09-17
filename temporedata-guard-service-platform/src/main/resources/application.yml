@@ -1,0 +1,70 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: zy-service-platform
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:prod}
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS_SERVERS:localhost:8848}
+        enabled: ${NACOS_ENABLED:true}
+        fail-fast: false
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    timeout: 3s
+  quartz:
+    auto-startup: false
+
+zy:
+  jwt:
+    secret: ${ZY_JWT_SECRET:qingzhouyun-prod-jwt-secret-key-0123456789abcdef0123456789abcdef}
+    expiration-ms: 86400000
+
+storage:
+  type: ${STORAGE_TYPE:local}
+  local-dir: ${STORAGE_LOCAL_DIR:./data/files}
+
+event:
+  bus:
+    type: ${EVENT_BUS_TYPE:direct}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+
+springdoc:
+  api-docs:
+    enabled: false
+
+---
+# Prod: MySQL(共享主库)
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:qingzhouyun}?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 3
+      min-idle: 3
+      max-active: 10
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  flyway:
+    enabled: false

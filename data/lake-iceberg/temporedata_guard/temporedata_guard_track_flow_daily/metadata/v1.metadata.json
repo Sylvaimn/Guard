@@ -1,0 +1,54 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "e0b4bd29-0e9b-4342-b0e9-8bffd4965d66",
+  "location" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1788435908211,
+  "last-column-id" : 4,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "region",
+      "required" : true,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "stat_date",
+      "required" : true,
+      "type" : "date"
+    }, {
+      "id" : 3,
+      "name" : "renci",
+      "required" : true,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "guiji",
+      "required" : true,
+      "type" : "long"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}

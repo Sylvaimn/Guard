@@ -1,0 +1,8 @@
+TemporeData Guard
+Copyright (c) 2026 TemporeData Guard Contributors
+
+This product includes software developed by third parties:
+- Vue.js / Element Plus / Vite (MIT)
+- Spring Boot / Spring Framework (Apache-2.0)
+- Apache Iceberg / Apache Kafka / Apache Hadoop (Apache-2.0)
+- MySQL Connector / ClickHouse / Nacos / Prometheus / Grafana

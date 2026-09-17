@@ -1,0 +1,123 @@
+2026-08-23 00:00:00.056 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:00.106 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:00.135 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:10.047 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:10.051 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:10.067 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:20.030 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:20.033 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:20.050 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:30.051 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:30.063 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:30.076 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:40.029 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:40.032 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:40.047 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:50.030 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:00:50.032 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:00:50.048 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:00.031 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:00.034 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:00.049 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:10.029 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:10.031 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:10.046 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:20.029 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:20.031 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:20.047 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:30.029 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:30.031 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:30.050 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:40.029 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:40.032 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:40.052 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:50.050 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:01:50.060 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:01:50.078 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:00.176 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:00.198 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:00.216 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:10.020 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:10.024 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:10.042 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:20.013 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:20.016 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:20.030 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:30.036 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:30.043 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:30.055 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:40.026 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:40.029 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:40.044 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:50.026 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:02:50.029 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:02:50.043 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:00.024 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:00.029 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:00.041 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:10.024 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:10.027 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:10.051 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:20.151 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:20.154 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:20.163 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:30.016 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:30.018 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:30.030 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:40.029 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:40.035 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:40.048 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:50.066 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:03:50.083 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:03:50.096 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:00.078 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:00.088 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:00.102 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:10.031 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:10.039 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:10.056 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:20.056 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:20.067 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:20.079 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:30.016 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:30.017 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:30.026 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:40.020 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:40.022 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:40.036 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:50.038 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:04:50.045 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:04:50.057 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:00.045 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:00.055 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:00.075 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:10.034 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:10.038 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:10.054 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:20.039 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:20.054 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:20.066 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:30.037 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:30.048 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:30.055 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:40.034 DEBUG [] [qingzhouyun-cluster_Worker-1] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:40.040 ERROR [] [zy-task-1] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:40.053 DEBUG [] [zy-task-1] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:50.019 DEBUG [] [qingzhouyun-cluster_Worker-2] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:05:50.020 ERROR [] [zy-task-2] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:05:50.030 DEBUG [] [zy-task-2] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:06:00.067 DEBUG [] [qingzhouyun-cluster_Worker-3] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:06:00.073 ERROR [] [zy-task-3] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:06:00.089 DEBUG [] [zy-task-3] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:06:10.048 DEBUG [] [qingzhouyun-cluster_Worker-4] c.i.zy.common.locker.DistributedLock - Lock acquired: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:06:10.051 ERROR [] [zy-task-4] c.i.z.m.quality.service.QualityJob - Scheduled quality check 7a9cc221b2384543886e2deca3695857 failed: 质量规则不存在
+2026-08-23 00:06:10.063 DEBUG [] [zy-task-4] c.i.zy.common.locker.DistributedLock - Lock released: quality:7a9cc221b2384543886e2deca3695857
+2026-08-23 00:06:13.845  INFO [] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler - Scheduler qingzhouyun-cluster_$_kodalien-Mac-mini.local1787411249424 paused.
+2026-08-23 00:06:15.179  INFO [] [SpringApplicationShutdownHook] c.i.z.m.w.service.WorkflowScheduler - WorkflowScheduler shut down
+2026-08-23 00:06:15.200  INFO [] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2026-08-23 00:06:15.200  INFO [] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler - Scheduler qingzhouyun-cluster_$_kodalien-Mac-mini.local1787411249424 shutting down.
+2026-08-23 00:06:15.200  INFO [] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler - Scheduler qingzhouyun-cluster_$_kodalien-Mac-mini.local1787411249424 paused.
+2026-08-23 00:06:15.202  INFO [] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler - Scheduler qingzhouyun-cluster_$_kodalien-Mac-mini.local1787411249424 shutdown complete.
+2026-08-23 00:06:15.212  INFO [] [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-23 00:06:15.238  INFO [] [SpringApplicationShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2026-08-23 00:06:15.244  INFO [] [SpringApplicationShutdownHook] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

@@ -1,0 +1,6 @@
+com/temporedata/guard/modules/unit/SensitiveUtilTest.class
+com/temporedata/guard/it/PoliceCombatIntegrationTest$TestApp.class
+com/temporedata/guard/modules/unit/AgentSecurityGuardTest.class
+com/temporedata/guard/modules/unit/EntitySlotTrackerTest.class
+com/temporedata/guard/arch/ArchitectureRulesTest.class
+com/temporedata/guard/it/PoliceCombatIntegrationTest.class

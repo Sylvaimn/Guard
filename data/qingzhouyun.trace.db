@@ -1,0 +1,84 @@
+2026-08-22 01:26:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]
+2026-08-22 01:42:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]
+2026-08-22 01:43:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]
+2026-08-22 08:45:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]
+2026-08-22 09:39:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]
+2026-08-22 09:41:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "\000a    create table zy_secret (\000a       id varchar(32) not null,\000a        create_time timestamp not null,\000a        description varchar(255),\000a        [*]key varchar(128) not null,\000a        scope varchar(32) not null,\000a        tenant_id varchar(32) not null,\000a        update_time timestamp,\000a        value varchar(1024) not null,\000a        primary key (id)\000a    )"; expected "identifier"; SQL statement:
+
+    create table zy_secret (
+       id varchar(32) not null,
+        create_time timestamp not null,
+        description varchar(255),
+        key varchar(128) not null,
+        scope varchar(32) not null,
+        tenant_id varchar(32) not null,
+        update_time timestamp,
+        value varchar(1024) not null,
+        primary key (id)
+    ) [42001-214]

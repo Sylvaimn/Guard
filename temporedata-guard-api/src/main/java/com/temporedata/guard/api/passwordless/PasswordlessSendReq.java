@@ -1,0 +1,14 @@
+package com.temporedata.guard.api.passwordless;
+
+import lombok.Data;
+
+/**
+ * Passwordless send code request DTO.
+ */
+@Data
+public class PasswordlessSendReq {
+
+    private String loginType;
+
+    private String target;
+}

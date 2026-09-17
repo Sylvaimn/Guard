@@ -1,0 +1,208 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "e0b4bd29-0e9b-4342-b0e9-8bffd4965d66",
+  "location" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily",
+  "last-sequence-number" : 6,
+  "last-updated-ms" : 1788438937586,
+  "last-column-id" : 4,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "region",
+      "required" : true,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "stat_date",
+      "required" : true,
+      "type" : "date"
+    }, {
+      "id" : 3,
+      "name" : "renci",
+      "required" : true,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "guiji",
+      "required" : true,
+      "type" : "long"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 7852855850231312526,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 7852855850231312526,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 4598856728220139463,
+    "timestamp-ms" : 1788435915658,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "changed-partition-count" : "1",
+      "total-records" : "0",
+      "total-files-size" : "0",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-4598856728220139463-1-3c687c02-a41b-4fac-ac0c-3b7c82f1b029.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 6667407376682190691,
+    "parent-snapshot-id" : 4598856728220139463,
+    "timestamp-ms" : 1788435927906,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "changed-partition-count" : "1",
+      "total-records" : "0",
+      "total-files-size" : "0",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-6667407376682190691-1-cd2a4142-d0f0-4cf9-b58d-3af646bd8e13.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 3,
+    "snapshot-id" : 4324797310132882066,
+    "parent-snapshot-id" : 6667407376682190691,
+    "timestamp-ms" : 1788435954081,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "changed-partition-count" : "1",
+      "total-records" : "0",
+      "total-files-size" : "0",
+      "total-data-files" : "3",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-4324797310132882066-1-5ec0608a-6b1f-4f0e-ae56-86135f4e0b08.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 4,
+    "snapshot-id" : 3352103368845522962,
+    "parent-snapshot-id" : 4324797310132882066,
+    "timestamp-ms" : 1788435981343,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "added-records" : "9",
+      "added-files-size" : "1363",
+      "changed-partition-count" : "1",
+      "total-records" : "9",
+      "total-files-size" : "1363",
+      "total-data-files" : "4",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-3352103368845522962-1-c66b51f1-48e4-497a-be79-1d50a68ad062.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 5,
+    "snapshot-id" : 3209789017963961432,
+    "parent-snapshot-id" : 3352103368845522962,
+    "timestamp-ms" : 1788438936943,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "1255",
+      "changed-partition-count" : "1",
+      "total-records" : "11",
+      "total-files-size" : "2618",
+      "total-data-files" : "5",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-3209789017963961432-1-55de32aa-d83f-487d-98b2-1688db4bd215.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 6,
+    "snapshot-id" : 7852855850231312526,
+    "parent-snapshot-id" : 3209789017963961432,
+    "timestamp-ms" : 1788438937586,
+    "summary" : {
+      "operation" : "append",
+      "added-data-files" : "1",
+      "added-records" : "2",
+      "added-files-size" : "1255",
+      "changed-partition-count" : "1",
+      "total-records" : "13",
+      "total-files-size" : "3873",
+      "total-data-files" : "6",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/snap-7852855850231312526-1-31764747-df44-4eec-a538-23cc99c2ffeb.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1788435915658,
+    "snapshot-id" : 4598856728220139463
+  }, {
+    "timestamp-ms" : 1788435927906,
+    "snapshot-id" : 6667407376682190691
+  }, {
+    "timestamp-ms" : 1788435954081,
+    "snapshot-id" : 4324797310132882066
+  }, {
+    "timestamp-ms" : 1788435981343,
+    "snapshot-id" : 3352103368845522962
+  }, {
+    "timestamp-ms" : 1788438936943,
+    "snapshot-id" : 3209789017963961432
+  }, {
+    "timestamp-ms" : 1788438937586,
+    "snapshot-id" : 7852855850231312526
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1788435908211,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1788435915658,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v2.metadata.json"
+  }, {
+    "timestamp-ms" : 1788435927906,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v3.metadata.json"
+  }, {
+    "timestamp-ms" : 1788435954081,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v4.metadata.json"
+  }, {
+    "timestamp-ms" : 1788435981343,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v5.metadata.json"
+  }, {
+    "timestamp-ms" : 1788438936943,
+    "metadata-file" : "/Users/kodlien/Documents/金盾智云警用大数据中台系统/data/lake-iceberg/temporedata_guard/temporedata_guard_track_flow_daily/metadata/v6.metadata.json"
+  } ]
+}

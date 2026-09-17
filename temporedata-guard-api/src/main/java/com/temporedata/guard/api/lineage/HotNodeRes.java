@@ -1,0 +1,14 @@
+package com.temporedata.guard.api.lineage;
+
+import lombok.Data;
+
+@Data
+public class HotNodeRes {
+
+    private String id;
+    private String name;
+    private String nodeType;
+    private int inDegree;
+    private int outDegree;
+    private int total;
+}

@@ -1,0 +1,28 @@
+# 集成测试配置: H2 内存库 + Quartz 内存调度 + Redis 回退, 避免与运行环境冲突
+spring:
+  datasource:
+    url: jdbc:h2:mem:zytest;MODE=MySQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ''
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  quartz:
+    job-store-type: memory
+    properties:
+      org.quartz.threadPool.threadCount: 2
+
+zy:
+  jwt:
+    secret: test-secret-key-for-integration-tests-only
+  crypto:
+    key: test-crypto-key
+  search:
+    engine: database
+
+logging:
+  level:
+    root: warn
+    com.temporedata.guard: info
